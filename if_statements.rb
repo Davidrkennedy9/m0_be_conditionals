@@ -12,6 +12,7 @@
 
 weather = "sunny"
 
+
 if weather == "sunny"
   p "sunscreen"
 elsif weather == "rainy"
@@ -33,6 +34,8 @@ end
 # if you have enough money to buy a gumball. A gumball costs
 # two quarters.
 
+  
+
 # Right now, the program will print
 # out both "I have enough money for a gumball" and
 # "I don't have enough money for a gumball". Write a 
@@ -43,8 +46,13 @@ end
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+if num_quarters >= 2
+ puts "I have enough money for a gumball"
+else
+  puts "I don't have enough money for a gumball"
+
+end
+
 
 
 #####################
@@ -63,3 +71,9 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce
+  "I can make pizza"
+else
+  "I cannot make pizza"
+end
