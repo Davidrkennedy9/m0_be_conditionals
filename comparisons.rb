@@ -54,11 +54,11 @@ puts "is number_students less than or equal to 21?", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
-
+# this code is displying the evaluation of is 4 less then 9 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
-
+#  this code is displying the evaluation is 4 less than the boos vareable
 friends = 6
 siblings = 2
 puts friends > siblings
@@ -90,16 +90,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
 # Assume that a dog is a puppy if it is less than 2 years old.
-
+puts loves_to_play && age < 2
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
