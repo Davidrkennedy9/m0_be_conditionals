@@ -58,17 +58,17 @@ puts 4 < 9
 books = 3
 puts 4 < books
 # YOU DO: Explain.
-#  this code is displying the evaluation is 4 less than the boos vareable
+#  this code is displying the evaluation is 4 less than the books vareable
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
-
+# this code is displaying is friends 6 greater then siblings 2 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+# this code is displaying is attendees not equal to num of meals 
 
 #-------------------
 # PART 3: Logical Operators
